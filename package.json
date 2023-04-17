@@ -1,0 +1,18 @@
+{
+  "name": "tinyjs",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "packages/runtime",
+    "packages/compiler",
+    "packages/loader"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
